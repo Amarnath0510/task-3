@@ -1,0 +1,34 @@
+(using for loops in json)
+var p ={
+0:"value1",
+"b":"value2",
+key:"value3"
+};
+for(var key ofvObject.keys(p)0 {
+console.log(key + "->" + p[key]);
+-----------------------------------------
+(using forin loop in json)
+var man={
+fname:"Nick";
+lname:"jonas",
+age:27
+});
+for (let things in man) {
+console.log(things + ": "+person[x])
+}
+----------------------------------------
+(using forEach loops in json)
+var busBooking=[
+{"bus name":"parveen travels"},
+{"bus name":"rathimeena travels"}
+];
+busBooking.forEach(function
+(data,index){
+console.log(data);
+});
+---------------------------------------
+(using forof loops)
+var my cars =[{name:'maruti},name:'bmw'}];
+for(car of mycars )
+{
+document.write(car.name + "<'br/>");
