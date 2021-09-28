@@ -1,0 +1,8 @@
+function reqListener(){
+    console.log(JSON.parse(this.response));
+};
+var XMLHttpRequest=require('xhr2');
+var request=new XMLHttpRequest();
+request.addEventListener("load",reqListener);
+request.open("GET",'https://restcountries.com/v3/all?fields=flags');
+request.send();
